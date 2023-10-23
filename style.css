@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://c0.wallpaperflare.com/preview/572/961/266/sky-dark-light-clouds.jpg);
+    background-repeat: none;
+    background-position-x: center;
+    background-size: cover;
+
+}
+
+h1 {
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+#center {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: #0c529d;
+    font-size: 40px;
+
+    #coordinates {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 1, 8);
+    }
+    
+    #lat,
+    #lon {
+        background-color: rgb(231, 228, 228);
+        border-color: rgba(49, 46, 231, 0.896);
+        border-width: 5px;
+        width: 200px;
+        height: 20px;
+        cursor: pointer;
+    }
+    
+    #btn {
+        background: #0066A2;
+        color: white;
+        border-style: outset;
+        border-color: #0066A2;
+        border-radius: 5px;
+        height: 40px;
+        width: 120px;
+        font: bold15px arial, sans-serif;
+        text-shadow: none;
+        font-size: large;
+        cursor: pointer;
+    }
+    
+    #link,
+    #link:hover {
+        background-color: rgba(166, 166, 166, 0.784);
+        color: blue;
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #info {
+        color: rgb(171, 4, 4);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    #instructions {
+        color: rgb(251, 218, 1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:15px;
+        font-weight:bold;
+    }
+}

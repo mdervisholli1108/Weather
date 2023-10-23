@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>WEATHER</h1>
+
+    <div id="center">
+        <h1 id="city"></h1>
+        <h2 id="temperture"></h2>
+        <h2 id="description"></h2>
+        <div id="coordinates">
+            <label for="">LAT</label>
+            <br>
+            <input id="lat" type="text">
+            <br>
+            <label for="">LON</label>
+            <br>
+            <input id="lon" type="text">
+            <br>
+            <br>
+            <button id="btn" onclick="getWeather()">Get Weather</button>
+
+            <p><a id="link" href="https://www.google.com/maps/@40.2938542,-86.3352859,5.1z">Click here to get
+                    coordinates of
+                    your
+                    location</a></p>
+                    <P id ="info">INSTRUCTIONS</P>
+                    <p id="instructions"> (After you click the link you will need to zoom in with your mouse then right click on the location and click on the coordiinates and it will automatically copy them for you.
+                        <br> You will then need to click back untill you get back to this page then you will paste your lat and lon numbers!!)
+
+                    </p>
+
+                    
+
+</body>
+
+</html>
